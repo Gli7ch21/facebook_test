@@ -50,7 +50,7 @@ public class Test1 {
         WebDriver drive =new ChromeDriver();
         JavascriptExecutor jse = (JavascriptExecutor)drive;
         drive.get("https://www.facebook.com/");
-        drive.findElement(By.id("email")).sendKeys("kirusam21@yahoo.com");
+        drive.findElement(By.id("email")).sendKeys("......");
         drive.findElement(By.id("pass")).sendKeys(sb);
         drive.findElement(By.id("loginbutton")).click();
                     try {
